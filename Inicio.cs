@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace FinanzIA
 {
-    public partial class formSub1 : Form
+    public partial class Inicio : Form
     {
-        public formSub1()
+        public Inicio()
         {
             InitializeComponent();
-        }
-
-        private void formSub1_Load(object sender, EventArgs e)
-        {
-            this.ControlBox = false;
         }
     }
 }

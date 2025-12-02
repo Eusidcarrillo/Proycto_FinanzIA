@@ -1,6 +1,6 @@
 ﻿namespace FinanzIA
 {
-    partial class formSub1
+    partial class Inicio
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // formSub1
+            // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "formSub1";
-            this.Text = "formSub1";
-            this.Load += new System.EventHandler(this.formSub1_Load);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(74)))));
+            this.ClientSize = new System.Drawing.Size(564, 336);
+            this.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Inicio";
+            this.Text = "Inicio";
             this.ResumeLayout(false);
 
         }

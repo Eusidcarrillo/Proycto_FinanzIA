@@ -1,6 +1,6 @@
 ﻿namespace FinanzIA
 {
-    partial class formSetting
+    partial class Configuraciones
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // formSetting
+            // Configuraciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "formSetting";
-            this.Text = "formSetting";
-            this.Load += new System.EventHandler(this.formSettings_Load);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(74)))));
+            this.ClientSize = new System.Drawing.Size(564, 336);
+            this.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Configuraciones";
+            this.Text = "Configuraciones";
             this.ResumeLayout(false);
 
         }

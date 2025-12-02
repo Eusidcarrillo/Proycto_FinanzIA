@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace FinanzIA
 {
-    public partial class formSetting : Form
+    public partial class ChatbotFinanciero : Form
     {
-        public formSetting()
+        public ChatbotFinanciero()
         {
             InitializeComponent();
-        }
-
-        private void formSettings_Load(object sender, EventArgs e)
-        {
-            this.ControlBox = false;
         }
     }
 }

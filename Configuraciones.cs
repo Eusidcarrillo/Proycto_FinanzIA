@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace FinanzIA
 {
-    public partial class formDashboard : Form
+    public partial class Configuraciones : Form
     {
-        public formDashboard()
+        public Configuraciones()
         {
             InitializeComponent();
-        }
-
-        private void formDashboard_Load(object sender, EventArgs e)
-        {
-            this.ControlBox = false;
         }
     }
 }
